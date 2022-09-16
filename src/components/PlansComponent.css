@@ -1,0 +1,33 @@
+.plans__plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+.plan__selected {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 1;
+  background-color: rgb(31, 31, 31);
+}
+.plans__plan:hover {
+  opacity: 1;
+  transition: all 0.2s;
+}
+.plan__select {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.disabled {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: gray;
+  font-weight: 600;
+  border: none;
+}

@@ -1,0 +1,23 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.notFound__title {
+  padding: 20px;
+}
+.notFound__h3 {
+  padding: 10px;
+}
+.notFound__button {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e50914;
+  font-size: 1rem;
+  border: none;
+}

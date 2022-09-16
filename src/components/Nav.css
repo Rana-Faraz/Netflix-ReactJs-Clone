@@ -1,0 +1,54 @@
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+  z-index: 1;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 0;
+  width: 100px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.nav__avatar {
+  position: fixed;
+  right: 24px;
+  cursor: pointer;
+  width: 30px;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  left: calc(100px + 30px);
+  text-decoration: none;
+}
+.nav__listItem {
+  cursor: pointer;
+  margin-inline: 10px;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+.nav__listItem.active {
+  opacity: 1;
+}
+
+.nav__links {
+  margin-top: 7px;
+}
+
+.link {
+  text-decoration: none;
+}
